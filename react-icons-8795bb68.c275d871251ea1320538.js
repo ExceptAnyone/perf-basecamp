@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_performance_basecamp=self.webpackChunkfrontend_performance_basecamp||[]).push([[957],{971:(e,a,n)=>{n.d(a,{k5:()=>r.k});n(548);var r=n(763);n(399)}}]);

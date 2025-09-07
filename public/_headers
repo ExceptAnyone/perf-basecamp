@@ -1,0 +1,37 @@
+# 정적 자산 캐시 설정
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+  Expires: +1y
+
+# JavaScript 파일 캐시 설정
+/*.js
+  Cache-Control: public, max-age=31536000, immutable
+  Expires: +1y
+
+# CSS 파일 캐시 설정
+/*.css
+  Cache-Control: public, max-age=31536000, immutable
+  Expires: +1y
+
+# 이미지 파일 캐시 설정
+/*.webp
+  Cache-Control: public, max-age=31536000, immutable
+  Expires: +1y
+
+/*.png
+  Cache-Control: public, max-age=31536000, immutable
+  Expires: +1y
+
+/*.gif
+  Cache-Control: public, max-age=31536000, immutable
+  Expires: +1y
+
+# HTML 파일 캐시 설정 (짧은 캐시)
+/*.html
+  Cache-Control: public, max-age=3600
+  Expires: +1h
+
+# API 응답 캐시 설정
+/api/*
+  Cache-Control: public, max-age=300
+  Expires: +5m
